@@ -10,7 +10,7 @@ import { persistStore } from "redux-persist";
 import { Url } from "./hooks/Context/context";
 
 let persistor = persistStore(store);
-let url = "https://fascinating-anni-mehrozali-da2ca805.koyeb.app/"
+let url = "https://fascinating-anni-mehrozali-da2ca805.koyeb.app"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

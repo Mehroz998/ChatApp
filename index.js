@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 8080;
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-  origin: "http://localhost:8080",  // ✅ Specific frontend origin
+  origin: "https://fascinating-anni-mehrozali-da2ca805.koyeb.app/",  // ✅ Specific frontend origin
   credentials: true,  // ✅ Allow cookies
   }))
 app.options("*", cors());  // ✅ Allow preflight requests

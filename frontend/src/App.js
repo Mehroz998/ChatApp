@@ -31,7 +31,7 @@ function App() {
   
   useEffect(()=>{
     if(authUser){
-      let socket = io('http://localhost:8080',{
+      let socket = io('https://fascinating-anni-mehrozali-da2ca805.koyeb.app/',{
         query:{
           userId:authUser._id,
         }

@@ -4,7 +4,7 @@ import { useForm } from "react-hook-form"
 import {toast } from 'react-toastify';
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-import { Url } from './Context/context.js'
+import { Url } from '../hooks/Context/context.js';
 import { useContext } from 'react'
 
 const Signup = () => {

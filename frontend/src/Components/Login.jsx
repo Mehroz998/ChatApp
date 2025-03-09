@@ -6,7 +6,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { setAuthUser } from '../redux/userSlice';
 import { useContext } from 'react';
-import { Url } from '../hooks/Context/context';
+import { Url } from '../hooks/Context/context.js';
 
 const Login = () => {
   const url = useContext(Url)

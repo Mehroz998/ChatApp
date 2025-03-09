@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { IoSend } from "react-icons/io5";
 import { useDispatch, useSelector } from "react-redux";
 import { setMessages } from "../redux/messageSlice";
-import { Url } from './Context/context'
+import { Url } from './Context/context.js'
 import { useContext } from 'react'
 
 const SendInput = () => {

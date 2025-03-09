@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import {useDispatch} from 'react-redux'
 import { setOtherUsers } from '../redux/userSlice'
-import { Url } from './Context/context'
+import { Url } from './Context/context.js'
 import { useContext } from 'react'
 
 const useGetOtherUsers = () => {

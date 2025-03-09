@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { useSelector , useDispatch } from "react-redux";
 import { setAuthUser, setSelectedUser} from "../redux/userSlice";
-import { Url } from './Context/context'
+import { Url } from './Context/context.js'
 import { useContext } from 'react'
 
 const Navbar = () => {
